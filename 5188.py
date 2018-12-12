@@ -8,7 +8,7 @@ import urllib
 import json
 
 login_url = 'https://account.5118.com/account/LoginConfirm'
-account = {"uname":"15001364950", "pwd":"13522500147"}
+account = {"uname":"xxxxxxxx", "pwd":"xxxxxxx"}
 
 pwd_base64 = base64.b64encode(account['pwd'].encode('utf-8')).decode("utf-8")
 login_data = {'uname':account['uname'],'pwd':pwd_base64, 'remember':'false', 'isKf5':'false'}
